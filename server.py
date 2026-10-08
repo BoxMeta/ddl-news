@@ -126,7 +126,6 @@ def page(title, body, description=""):
   </nav>
 </header>
 <main>{body}</main>
-<footer>{esc(DISCLAIMER)} Squarespace archive captured October 6, 2026. Original posts preserved at the same /news/ paths.</footer>
 </body>
 </html>"""
 
@@ -139,8 +138,7 @@ def home(posts):
         cards = "\n".join(card(p) for p in rest)
         inner = f"""
         <p class="kicker">Doginal Dogs Legends</p>
-        <h1>The pack, in writing.</h1>
-        <p class="lead">Independent nightly coverage of DDL TCG. The Squarespace years are archived here. New recaps publish on this domain.</p>
+       <h1>Daily coverage of Doginal Dogs Legends News!</h1>
         <div class="grid">
           {card(lead, featured=True)}
           {cards}
