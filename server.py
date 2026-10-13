@@ -120,6 +120,9 @@ def page(title, body, description=""):
 <header>
   <a class="mark" href="/">DDL<span>.NEWS</span></a>
   <nav>
+    <a href="https://ddltcg.com">TCG</a>
+    <a href="https://shop.doginaldogs.com/products/doginal-dogs-legends-rise-of-the-pack-booster-box">Buy</a>
+    <a href="https://ddltcg.com/play">Play</a>
     <a href="/news">News</a>
     <a href="/about">About</a>
     <a href="https://x.com/BoxMetaAlt">@BoxMeta</a>
